@@ -52,13 +52,27 @@ The target column is "Absenteeism Time in Hours" . The irrelavant columns like "
 - Reason_2 grouped by pregnancy issues
 - Reason_3 grouped by poisoining
 - Reason_4 grouped by general body issues
+---
+
+## Exploratory Data Analysis
+### Some of the striking features related to Absenteeism
+
+- Months Vs Excessive Absenteeism
+
+![EDA 1](https://user-images.githubusercontent.com/68263684/107476943-1897b900-6b34-11eb-8132-1f1520791d81.png)
+
+- Days Vs Excessive Absenteeism
+
+![EDA 2](https://user-images.githubusercontent.com/68263684/107477034-4a108480-6b34-11eb-9b3f-6f741d64733d.png)
+
+- Distance to work
+
+![EDA 3](https://user-images.githubusercontent.com/68263684/107477083-63193580-6b34-11eb-9861-94f452bc2a38.png)
 
 
+- Correlation Matrix
 
-
-
-
-
+![EDA 4](https://user-images.githubusercontent.com/68263684/107477159-804e0400-6b34-11eb-966f-82bf9fb324c6.png)
 
 
 
