@@ -48,10 +48,10 @@ The Absenteeism  dataset is collected from Kaggle.com . The dataset consists of 
 
 The target column is "Absenteeism Time in Hours" . The irrelavant columns like "ID are removed from the table. For determining the absenteeism, the day and the month in which the employee is absent should be noted. This is calculated from the date column. There were 28 reasons for absence which will be broken down into 4 major categoeis based on their similarity. Reason 0 is for unknown cases. So this will act as the baseline and will be dropped to avoid multi collinearity. The resons were grouped as 
 
--Reason_1 grouped by diseases
--Reason_2 grouped by pregnancy issues
--Reason_3 grouped by poisoining
--Reason_4 grouped by general body issues
+- Reason_1 grouped by diseases
+- Reason_2 grouped by pregnancy issues
+- Reason_3 grouped by poisoining
+- Reason_4 grouped by general body issues
 
 
 
