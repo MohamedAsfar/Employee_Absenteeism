@@ -80,9 +80,18 @@ Now, lets focus on our target variable "Absenteeism Time in Hours". The meadian 
 
 ![EDA 4](https://user-images.githubusercontent.com/68263684/107477159-804e0400-6b34-11eb-966f-82bf9fb324c6.png)
 
+
+### Points to note
+
+- The rate Excessive Absenteeism is increses from January to December
+- Employees were mostly absent during Mondays and Fridays
+- As the Distance to work increase, Employees are prone to be absent
+
 ---
 
 ## Machine Learning
+
+
 
 
 
