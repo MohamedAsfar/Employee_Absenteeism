@@ -26,3 +26,19 @@ You're sections headers will be used to reference location of destination.
 Absenteeism refers to the habitual non-presence of an employee at his or her job. Possible causes of over-absenteeism include job dissatisfaction, ongoing personal issues, and chronic medical problems. Regardless of the root cause, a worker who exhibits a long-term pattern of being absent may tarnish his reputation, which may consequently threaten his long-term employability. However, some forms of absence from work are legally protected and cannot be grounds for termination. The reasons for absenteeism are analyzed and a machine learning model is created to know what all factors majorly contribute to Absenteeism in workplace.
 
 ---
+## DISCOVER
+The Absenteeism  dataset is collected from Kaggle.com . The dataset consists of 700 rows and 12 columns. The following table gives a description of the categories in the dataset.
+| Variable  | Data type |
+| ------------- | ------------- |
+| ID  | Integer  |
+| Reason for Absence  | Integer  |
+| Date	  | Integer  |
+| Transportation Expense  | Integer  |
+| Distance to Work  | Integer |
+| Age  | Integer  |
+| Daily Work Load Average  | Integer  |
+| Body Mass Index | Integer  |
+| Education  | Integer  |
+| Children  | Integer  |
+| Pets  | Integer  |
+| Absenteeism Time in Hours  | Integer  |
