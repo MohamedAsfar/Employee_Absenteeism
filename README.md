@@ -15,7 +15,6 @@ You're sections headers will be used to reference location of destination.
 - [Preprocessing the data](#Preprocessing-the-data)
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Machine Learning](#Machine-Learning)
-- [Testing the Model](#Testing-the-Model)
 - [SQL Integration](#SQL-Integration)
 - [Business Insights in Tableau](#Business-Insights-in-Tableau)
 
@@ -104,6 +103,19 @@ As the prediction Varible is classified as either Clas 0 or Class 1, Logistic Re
 | 	Education | 	-0.240816 | 	0.785986
 | 	Pets | 	-0.273374 | 	0.760808
 | Intercept | 	-1.609575 | 	0.199973
+
+From the above table, it is clear that the Reason_3(poisoining), Reason_1 (disease), Reason_2 (pregnancy issues) are the major factors contributing for excessive absenteeism.
+
+---
+## SQL Integration
+
+SQL is intergrated with Jupyter Notebook using the library pymysql. As an analyst, when we deal with huge amount of data, it is always better to use SQL for data manupulation rather than working in the same Jupyter Notebook where the Machine Learning model is created. The databease and a table named "predicted_outputs" is created in MYSQL workbench and the the data predicted from the machine learning model are imported via Jupyter Notebook. The table created contains all the columns including the reasons, probabilities and predicted values. These values are saved as a csv file which will be visualized in Tableau. 
+
+![Screenshot (86)](https://user-images.githubusercontent.com/68263684/107481349-43394000-6b3b-11eb-8471-046611d8237b.png)
+
+
+
+## Business Insights in Tableau
 
 
 
