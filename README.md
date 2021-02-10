@@ -23,7 +23,7 @@ You're sections headers will be used to reference location of destination.
 
 ## DEFINE
 
-Absenteeism refers to the habitual non-presence of an employee at his or her job. Possible causes of over-absenteeism include job dissatisfaction, ongoing personal issues, and chronic medical problems. Regardless of the root cause, a worker who exhibits a long-term pattern of being absent may tarnish his reputation, which may consequently threaten his long-term employability. However, some forms of absence from work are legally protected and cannot be grounds for termination. The reasons for absenteeism are analyzed and a machine learning model is created to know what all factors majorly contribute to Absenteeism in workplace.
+Absenteeism refers to the habitual non-presence of an employee at his or her job. Possible causes of over-absenteeism include job dissatisfaction, ongoing personal issues, and chronic medical problems. Regardless of the root cause, a worker who exhibits a long-term pattern of being absent may tarnish his reputation, which may consequently threaten his long-term employability. However, some forms of absence from work are legally protected and cannot be grounds for termination. In company's point of view, the key performance index is finding the resons for absenteeism. Therefore the reasons for absenteeism are analyzed and a machine learning model is created to know what all factors majorly contribute to Absenteeism in workplace.
 
 ---
 ## DISCOVER
