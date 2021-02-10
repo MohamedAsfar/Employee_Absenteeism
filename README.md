@@ -52,6 +52,12 @@ The target column is "Absenteeism Time in Hours" . The irrelavant columns like "
 - Reason_2 grouped by pregnancy issues
 - Reason_3 grouped by poisoining
 - Reason_4 grouped by general body issues
+
+Now, lets focus on our target variable "Absenteeism Time in Hours". The meadian value in "Absenteeism Time in Hours" is 3 hours. So, we group them as 
+
+- Moderately absent ( less than or equal to 3 hours -Class value 0)
+- Excessively absent (greater than 3 hours - Class value 1)
+
 ---
 
 ## Exploratory Data Analysis
