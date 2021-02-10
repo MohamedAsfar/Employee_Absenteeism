@@ -12,13 +12,11 @@ You're sections headers will be used to reference location of destination.
 
 - [Define](#Define)
 - [Discover](#Discover)
+- [Preprocessing the data](#Preprocessing-the-data)
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-- [Data Partition](#Data-Partition)
-- [Feature Engineering](#Feature-Engineering)
-- [Data Partition](#Data-Partition)
-- [Methods Used](#Methods-Used)
-- [Model Selection](#Model-Selection)
-- [Business Insights](#Business-Insights)
-- [Conclusion](#Conclusion)
+- [Machine Learning](#Machine-Learning)
+- [Testing the Model](#Testing-the-Model)
+- [SQL Integration](#SQL-Integration)
+- [Business Insights in Tableau](#Business-Insights-in-Tableau)
 
 ---
