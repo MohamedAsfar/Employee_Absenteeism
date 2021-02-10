@@ -76,10 +76,6 @@ Now, lets focus on our target variable "Absenteeism Time in Hours". The meadian 
 ![EDA 3](https://user-images.githubusercontent.com/68263684/107477083-63193580-6b34-11eb-9861-94f452bc2a38.png)
 
 
-- Correlation Matrix
-
-![EDA 4](https://user-images.githubusercontent.com/68263684/107477159-804e0400-6b34-11eb-966f-82bf9fb324c6.png)
-
 
 ### Points to note
 
