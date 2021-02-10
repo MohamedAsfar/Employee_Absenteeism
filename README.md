@@ -87,10 +87,23 @@ Now, lets focus on our target variable "Absenteeism Time in Hours". The meadian 
 
 ## Machine Learning
 
+As the prediction Varible is classified as either Clas 0 or Class 1, Logistic Regression is used to create a Machine Learning model. There were nearly 46% Class 0's amn 54% Class 1's which shows that the dataset is almost balanced. Training and test sets were splitted based on the 80-20 ratio. The model created resulted in an accuracy of 78% which is above baseline. The results from the model are as follows:
 
 
-
-
+| Feature name | 	Coefficient	| Odds_ratio | 
+| ------------- | ------------- |------------- |
+| Reason_3 | 	3.092102 | 	22.023327 | 
+| 	Reason_1 | 	2.771512 | 	15.982778 | 
+| Reason_2 | 	0.931688 | 	2.538791 | 
+| 	Reason_4 | 	0.809059 | 	2.245794
+| 	Transportation Expense | 	0.625055 | 	1.868348
+| 	Children | 	0.357535 | 	1.429801
+| 	Body Mass Index | 	0.288294 | 	1.334150
+| 	Month Value | 	0.007812 | 	1.007843
+| 	Age | 	-0.173903 | 	0.840378
+| 	Education | 	-0.240816 | 	0.785986
+| 	Pets | 	-0.273374 | 	0.760808
+| Intercept | 	-1.609575 | 	0.199973
 
 
 
