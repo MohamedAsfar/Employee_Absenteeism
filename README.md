@@ -32,7 +32,7 @@ The Absenteeism  dataset is collected from Kaggle.com . The dataset consists of 
 | ------------- | ------------- |
 | ID  | Integer  |
 | Reason for Absence  | Integer  |
-| Date	  | Integer  |
+| Date	  | String  |
 | Transportation Expense  | Integer  |
 | Distance to Work  | Integer |
 | Age  | Integer  |
