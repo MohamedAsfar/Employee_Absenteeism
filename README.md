@@ -41,7 +41,6 @@ The entire dataset was collected from 365DataScience.com. It consists of twelve 
 | Children  | Integer  |
 | Pets  | Integer  |
 | Absenteeism Time in Hours  | Integer  |
-
 A new column called “Excessive Absenteeism” will be created from the dataset and employees with excessive absenteeism will be predicted after preprocessing the data. The categorical variables and numerical variables will be checked by preprocessing the data and further a machine-learning model will be created to predict employee absenteeism. 
 The transportation expense is a subset of the entire travel expense. It is an addition of Gas cost, transportation cost, meal cost, or any other cost in which an employee can claim for reimbursement. So, this column consists of all the expenses related to travel for each month in dollars. The Distance to work denotes the number of kilometers the employee should travel to reach the office. This is an important feature as it highly influences the decision of the employee to take leave or not. The daily workload average column denotes the amount of work time spent by an employee in a day in minutes. For example 239.554 in the first row denotes that the employee works for an average of four hours per day. The body mass index column denotes whether the employee is overweight, underweight, or normal. There is a common thing between children and pets columns. These columns have categorical data containing numerical values. Whereas Education contains numbers ranging from 1 to 4. 
 ---
