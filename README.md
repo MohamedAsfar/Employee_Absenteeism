@@ -10,7 +10,7 @@
 ### Table of Contents
 You're sections headers will be used to reference location of destination.
 
-- [Define](#Define)
+- [Overview](#Overview)
 - [Discover](#Discover)
 - [Preprocessing the data](#Preprocessing-the-data)
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
@@ -20,13 +20,13 @@ You're sections headers will be used to reference location of destination.
 
 ---
 
-## DEFINE
+## Overview
 
-Absenteeism refers to the habitual non-presence of an employee at his or her job. Possible causes of over-absenteeism include job dissatisfaction, ongoing personal issues, and chronic medical problems. Regardless of the root cause, a worker who exhibits a long-term pattern of being absent may tarnish his reputation, which may consequently threaten his long-term employability. However, some forms of absence from work are legally protected and cannot be grounds for termination. In company's point of view, the key performance index is finding the resons for absenteeism. Therefore the reasons for absenteeism are analyzed and a machine learning model is created to know what all factors majorly contribute to Absenteeism in workplace.
+The total yearly expense lost in productivity due to absenteeism in a workplace is about 24.2 billion (Grace Madlinger, 2018). The elevated risk of being unemployed during the COVID-19 scenario causes depression and illness in employees. As per CareerBuilder's yearly overview, the probability of an employee being absent for more hours has increased by 40% when compared to the last year. The main reason behind this project is to help the organizations predict employee absenteeism so that it can take appropriate measures to prevent a decline in productivity. A dataset is taken from the 365datascience website and a machine learning model is built using classification algorithms, with significant variables like “Reasons for Absenteeism” and “Absenteeism in hours”, to predict whether the employee is excessively absent or not. The best model Logistic Regression is selected based on accuracy (74%) and the process of data manipulation is made smooth by integrating Python with SQL. Further, the predicted outputs are analyzed in Tableau which helps to scrutinize details of the employee in-depth.
 
 ---
 ## DISCOVER
-The Absenteeism  dataset is collected from Kaggle.com . The dataset consists of 700 rows and 12 columns. The following table gives a description of the categories in the dataset.
+The entire dataset was collected from 365DataScience.com. It consists of twelve columns and seven hundred rows. The following Table 1 explains each variable in detail. 
 | Variable  | Data type |
 | ------------- | ------------- |
 | ID  | Integer  |
@@ -42,10 +42,14 @@ The Absenteeism  dataset is collected from Kaggle.com . The dataset consists of 
 | Pets  | Integer  |
 | Absenteeism Time in Hours  | Integer  |
 
+A new column called “Excessive Absenteeism” will be created from the dataset and employees with excessive absenteeism will be predicted after preprocessing the data. The categorical variables and numerical variables will be checked by preprocessing the data and further a machine-learning model will be created to predict employee absenteeism. 
+The transportation expense is a subset of the entire travel expense. It is an addition of Gas cost, transportation cost, meal cost, or any other cost in which an employee can claim for reimbursement. So, this column consists of all the expenses related to travel for each month in dollars. The Distance to work denotes the number of kilometers the employee should travel to reach the office. This is an important feature as it highly influences the decision of the employee to take leave or not. The daily workload average column denotes the amount of work time spent by an employee in a day in minutes. For example 239.554 in the first row denotes that the employee works for an average of four hours per day. The body mass index column denotes whether the employee is overweight, underweight, or normal. There is a common thing between children and pets columns. These columns have categorical data containing numerical values. Whereas Education contains numbers ranging from 1 to 4. 
 ---
 ## Preprocessing the data
 
-The target column is "Absenteeism Time in Hours" . The irrelavant columns like "ID are removed from the table. For determining the absenteeism, the day and the month in which the employee is absent should be noted. This is calculated from the date column. There were 28 reasons for absence which will be broken down into 4 major categoeis based on their similarity. Reason 0 is for unknown cases. So this will act as the baseline and will be dropped to avoid multi collinearity. The resons were grouped as 
+The target column is "Absenteeism Time in Hours" . If the dataset has 1% or less than one percent of missing data, it can be neglected. But, on the other hand, if there are more missing data, the entities should be replaced by either mean, median, or mode.  
+The dataset consists of zero null values for each feature. The first row in the dataset shows that an employee with ID number 11 is absent for four hours in July 2015. The employee ID number is a unique identification number for each person in the workplace. This information will be helpful to track the presence of a particular employee. For a broader picture, it doesn't help for analyzing the problem statement. The Machine Learning model will be not valid if such features are included. So, column “ID” is dropped. 
+It is also necessary to group the reasons for absenteeism because having 28 different reasons for the analysis increases the complexity of the machine learning. As a result, the 28 reasons are grouped into four major categories. The resons were grouped as 
 
 - Reason_1 grouped by diseases
 - Reason_2 grouped by pregnancy issues
